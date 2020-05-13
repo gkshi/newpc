@@ -1,0 +1,40 @@
+// core
+@import 'variables/index';
+@import 'reset';
+@import 'utils';
+
+body {
+  font-family: $font-family-default;
+  font-size: $font-size-default;
+  line-height: $line-height-default;
+  font-weight: $font-weight-normal;
+  color: $color-text-regular;
+  background: $color-bg;
+}
+
+*[hidden] {
+  display: none !important;
+}
+
+.wrapper {
+  width: 1000px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page {
+  margin: 50px auto 150px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  display: block;
+  font-weight: 300;
+  color: #35495e;
+  letter-spacing: 1px;
+}
