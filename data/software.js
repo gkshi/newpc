@@ -20,7 +20,7 @@ export default [
     },
     {
       title: 'GitKraken crack',
-      url: '',
+      url: 'https://github.com/5cr1pt/GitCracken',
       category: 'work',
       image: 'icons/gitkraken.png'
     }

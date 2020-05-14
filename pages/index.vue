@@ -3,13 +3,14 @@
     .wrapper
       section
         h1.title Have a new laptop?
+        h2 Install handy apps fast!
 
       section
         .items(v-for="(list, i) in softwareItems" :key="i")
           softwareItem(v-for="(item, i) in list" :data="item" :key="i")
 
       section
-        h2.title global packages
+        h2.title Terminal useful commands:
         .code-items
           codeItem(v-for="(item, i) in code" :data="item" :key="i")
 </template>
@@ -55,7 +56,7 @@ export default {
     }
     .code-items {
       & > *:not(:last-child) {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
     }
     section {
