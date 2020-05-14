@@ -10,8 +10,8 @@ export default {
   name: 'code-item-component',
   props: {
     data: {
-      type: String,
-      default: ''
+      type: Object,
+      default: () => ({})
     }
   },
   methods: {

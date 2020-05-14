@@ -1,7 +1,7 @@
 {
   "name": "newpc",
   "version": "1.0.0",
-  "description": "",
+  "description": "All handy apps in one place",
   "author": "George Shinkarev <gkshi@ya.ru>",
   "private": true,
   "scripts": {

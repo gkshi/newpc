@@ -80,6 +80,12 @@ export default [
   ],
   [
     {
+      title: 'BitTorrent',
+      url: 'https://www.bittorrent.com/products/win/bittorrent-web-free/',
+      category: 'system',
+      image: 'icons/bittorrent.png'
+    },
+    {
       title: 'TunnelBlick',
       url: 'https://tunnelblick.net/',
       category: 'system',

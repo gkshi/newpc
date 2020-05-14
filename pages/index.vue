@@ -31,6 +31,10 @@ export default {
       softwareItems,
       code: [
         {
+          title: 'Brew install',
+          text: '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"'
+        },
+        {
           title: 'Yarn install',
           text: 'brew install yarn'
         },
