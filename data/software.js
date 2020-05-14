@@ -4,25 +4,25 @@ export default [
       title: 'WebStorm IDE',
       url: 'https://www.jetbrains.com/webstorm/',
       category: 'work',
-      image: '/icons/webstorm.png'
+      image: 'icons/webstorm.png'
     },
     {
       title: 'WebStorm patcher',
       url: 'https://vk.com/jetlics',
       category: 'work',
-      image: '/icons/webstorm.png'
+      image: 'icons/webstorm.png'
     },
     {
       title: 'GitKraken',
       url: 'https://www.gitkraken.com/',
       category: 'work',
-      image: '/icons/gitkraken.png'
+      image: 'icons/gitkraken.png'
     },
     {
       title: 'GitKraken crack',
       url: '',
       category: 'work',
-      image: '/icons/gitkraken.png'
+      image: 'icons/gitkraken.png'
     }
   ],
   [
@@ -30,25 +30,25 @@ export default [
       title: 'iTerm',
       url: 'https://iterm2.com/',
       category: 'dev',
-      image: '/icons/iterm.png'
+      image: 'icons/iterm.png'
     },
     {
       title: 'Node.js',
       url: 'https://nodejs.org/en/',
       category: 'dev',
-      image: '/icons/nodejs.png'
+      image: 'icons/nodejs.png'
     },
     {
       title: 'Mongo DB Compass',
       url: 'https://www.mongodb.com/products/compass',
       category: 'dev',
-      image: '/icons/mongo.png'
+      image: 'icons/mongo.png'
     },
     {
       title: 'Tor Browser',
       url: 'https://www.torproject.org/',
       category: 'dev',
-      image: '/icons/tor.png'
+      image: 'icons/tor.png'
     }
   ],
   [
@@ -57,25 +57,25 @@ export default [
       url: 'https://desktop.telegram.org/',
       vpn: true,
       category: 'personal',
-      image: '/icons/telegram.png'
+      image: 'icons/telegram.png'
     },
     {
       title: 'Google Chrome',
       url: 'https://www.google.ru/chrome/',
-      image: '/icons/chrome.png',
+      image: 'icons/chrome.png',
       category: 'personal'
     },
     {
       title: 'Avast passwords',
       url: 'https://www.avast.ru/passwords#mac',
       category: 'personal',
-      image: '/icons/avastpasswords.png'
+      image: 'icons/avastpasswords.png'
     },
     {
       title: 'Notion',
       url: 'https://www.notion.so/',
       category: 'personal',
-      image: '/icons/notion.png'
+      image: 'icons/notion.png'
     }
   ],
   [
@@ -83,19 +83,19 @@ export default [
       title: 'TunnelBlick',
       url: 'https://tunnelblick.net/',
       category: 'system',
-      image: '/icons/tunnelblick.png'
+      image: 'icons/tunnelblick.png'
     },
     {
       title: 'TunnelBlick Config',
       url: 'https://disk.yandex.ru/client/disk/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8',
       category: 'system',
-      image: '/icons/tunnelblick.png'
+      image: 'icons/tunnelblick.png'
     },
     {
       title: 'Macs Fan Control',
       url: 'https://crystalidea.com/ru/macs-fan-control',
       category: 'system',
-      image: '/icons/macsfancontrol.png'
+      image: 'icons/macsfancontrol.png'
     }
   ],
   [
@@ -103,14 +103,14 @@ export default [
       title: 'Figma',
       url: 'https://www.figma.com/downloads/',
       category: 'design',
-      image: '/icons/figma.png'
+      image: 'icons/figma.png'
     },
     {
       title: 'Sketch App',
       url: 'https://rutracker.org/forum/tracker.php?f=1370&nm=sketch',
       vpn: true,
       category: 'design',
-      image: '/icons/sketch.png'
+      image: 'icons/sketch.png'
     }
   ]
 ]
