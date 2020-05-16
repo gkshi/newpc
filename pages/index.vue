@@ -16,10 +16,10 @@
 </template>
 
 <script>
-/* eslint no-useless-escape: "off" */
 import softwareItems from '@/data/software'
 import softwareItem from '@/components/software-item'
 import codeItem from '@/components/code-item'
+import codeItemData from '@/data/code'
 
 export default {
   components: {
@@ -29,20 +29,7 @@ export default {
   data () {
     return {
       softwareItems,
-      code: [
-        {
-          title: 'Brew install',
-          text: '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"'
-        },
-        {
-          title: 'Yarn install',
-          text: 'brew install yarn'
-        },
-        {
-          title: 'Terminal aliases',
-          text: 'printf "alias dc=\\"docker-compose\\"\\nalias dev=\\"yarn dev\\"" > $HOME/.zshrc'
-        }
-      ]
+      code: codeItemData
     }
   }
 }

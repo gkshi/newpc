@@ -2,7 +2,7 @@
   .code-item-component.flex.column.a-start
     .title(@click="select") {{ data.title }}
     pre(@click="select")
-      code(ref="code") {{ data.text }}
+      code(ref="code" v-html="data.text")
 </template>
 
 <script>
@@ -34,6 +34,7 @@ export default {
 <style lang="scss" scoped>
   .code-item-component {
     padding: 10px 10px;
+    text-align: left;
     .title {
       margin-bottom: 4px;
       font-size: .8rem;
