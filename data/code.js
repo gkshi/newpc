@@ -2,6 +2,10 @@
 
 export default [
   {
+    title: 'Show hidden files in Finder',
+    text: 'defaults write com.apple.finder AppleShowAllFiles YES'
+  },
+  {
     title: 'Brew install',
     text: '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"'
   },
